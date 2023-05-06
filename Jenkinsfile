@@ -4,22 +4,22 @@ pipeline {
     stages {
       stage('checkout') {
             steps {
-                
+                git 'https://github.com/ShivakumarVJ/simple-java-project.git'
             }
         }
         stage('Build') {
             steps {
-                echo 'Building..'
+                sh 'mvn clean install'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                sh 'sleep 30'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                sh 'sleep 30'
             }
         }
     }
