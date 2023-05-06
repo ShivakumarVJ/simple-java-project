@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                sh 'mave:n clean install'
             }
         }
         stage('Test') {
