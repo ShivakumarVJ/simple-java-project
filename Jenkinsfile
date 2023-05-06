@@ -4,7 +4,7 @@ pipeline {
     stages {
       stage('checkout') {
             steps {
-                git 'https://github.com/ShivakumarVJ/simple-java-project.git'
+                sh 'user -a'
             }
         }
         stage('Build') {
