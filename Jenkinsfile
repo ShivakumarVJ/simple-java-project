@@ -4,7 +4,7 @@ pipeline {
     stages {
       stage('checkout') {
             steps {
-                sh 'user -a'
+                sh 'hostname'
             }
         }
         stage('Build') {
