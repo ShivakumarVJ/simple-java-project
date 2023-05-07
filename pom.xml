@@ -40,8 +40,8 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <source>6.0</source>
-                                    <target>1.8</target>
+                                    <source>11</source>
+                                    <target>11</target>
                                     <groupId>org.eclipse.jetty</groupId>
                                     <artifactId>jetty-runner</artifactId>
                                     <version>9.3.3.v20150827</version>
